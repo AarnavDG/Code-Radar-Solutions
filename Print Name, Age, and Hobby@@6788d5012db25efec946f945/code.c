@@ -3,7 +3,8 @@
 
 int main() {
     int x;
-    char word1[100],word2[100];
+    char word1[100];
+    char word2[100];
     scanf("%99s",word1);
     scanf("%d",x);
     scanf("%99s",word2);
