@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    scanf("%d",&x);
-    if(122>=x>=97){
+    char x;
+    scanf("%c",&x);
+    if(ch>='a' && ch<='z'){
         printf("Lowercase");
     }
-    else if(90>=x>=65){
+    else if(ch>=A && ch<=Z){
         printf("Uppercase");
     }
-    // else{
-    //     printf("Not a Alphabet");
-    // }
+    else{
+        printf("Not a Alphabet");
+    }
+    
     return 0;
 }
