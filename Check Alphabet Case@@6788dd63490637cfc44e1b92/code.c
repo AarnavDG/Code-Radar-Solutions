@@ -9,8 +9,8 @@ int main() {
     else if(90>=x>=65){
         printf("Uppercase");
     }
-    else{
-        printf("Not a Alphabet");
-    }
+    // else{
+    //     printf("Not a Alphabet");
+    // }
     return 0;
 }
