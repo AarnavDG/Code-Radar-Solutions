@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    pint x;
+    int x;
     scanf("%d",&x);
     if(x>=90){
         printf("A");
