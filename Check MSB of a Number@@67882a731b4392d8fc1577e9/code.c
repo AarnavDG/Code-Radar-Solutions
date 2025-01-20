@@ -4,7 +4,7 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if(x&(1<<32)){
+    if(x&(1<<33)){
         printf("Set\n");
     }
     else{
