@@ -10,14 +10,14 @@ int main() {
     else if(a=='-'){
         printf("%d",x-y);
     }
-    else if(x=='*'){
+    else if(a=='*'){
         printf("%d",x*y);
     }
-    else if(x=='/'){
+    else if(a=='/'){
         printf("%d",x/y);
     }
-    // else{
-    //     printf("error");
-    // }
+    else{
+        printf("error");
+    }
     return 0;
 }
