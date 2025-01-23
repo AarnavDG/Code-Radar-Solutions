@@ -1,23 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int x,y;
-    char a;
+    int a,b;
+    char c;
     scanf("%d %d %c",&x,&y,&a);
-    if(a=='+'){
+    if(c=='+'){
         printf("%d",x+y);
     }
-    if(a=='-'){
+    if(c=='-'){
         printf("%d",x-y);
     }
-    if(a=='*'){
+    if(c=='*'){
         printf("%d",x*y);
     }
-    if (a=='/'){
+    if (c=='/'){
         printf("%f",x/y);
     }
-    else{
-        printf("error");
-    }
+
     return 0;
 }
