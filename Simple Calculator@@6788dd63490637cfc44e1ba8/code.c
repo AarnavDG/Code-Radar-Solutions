@@ -6,15 +6,19 @@ int main() {
     scanf("%d %d %c",&x,&y,&a);
     if(a=='+'){
         printf("%d",x+y);
+        break;
     }
     if(a=='-'){
         printf("%d",x-y);
+        break;
     }
     if(a=='*'){
         printf("%d",x*y);
+        break;
     }
-    else if (a=='/'){
+    if (a=='/'){
         printf("%d",x/y);
+        break;
     }
     else{
         printf("error");
