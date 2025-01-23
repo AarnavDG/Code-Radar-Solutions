@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     int x,y;
     char a;
     scanf("%d %d %c",&x,&y,&a);
@@ -14,7 +14,7 @@ void main() {
         printf("%d",x*y);
     }
     if (a=='/'){
-        printf("%d",x/y);
+        printf("%f",x/y);
     }
     else{
         printf("error");
