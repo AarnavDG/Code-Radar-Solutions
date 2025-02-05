@@ -24,7 +24,7 @@ int main() {
         }
     }
     else {
-        printf("Error: Invalid operator.");
+        printf("error");
     }
 
     return 0;
