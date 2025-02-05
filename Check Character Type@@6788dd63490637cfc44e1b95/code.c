@@ -1,45 +1,21 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     char x;
     scanf("%c",&x);
-    switch(x):
-    {
-        case "a" :
-        printf("Vowel");
-        break;
-        break
-        case "e" :
-        printf("Vowel");
-        break;
-        case "i" :
-        printf("Vowel");
-        break;
-        case "o" :
-        printf("Vowel");
-        break;
-        case "u" :
-        printf("Vowel");
-        break;
-        case "A" :
-        printf("Vowel");
-        break;
-        case "E" :
-        printf("Vowel");
-        break;
-        case "I" :
-        printf("Vowel");
-        break;
-        case "O" :
-        printf("Vowel");
-        break;
-        case "U" :
-        printf("Vowel");
-        break;
-        default:
-        print("Consonant");
-        break;
-
+ if (x=="a" || x=="e" || x=="i" ||x=="o" || x=="u" || x=="A"  || x=="E" || x=="I" ||x=="O" ||x=="U"){
+    printf("Vowel");
+ }
+ else if(x>=0 && x>=9){
+    printf("Digit");
+ }
+ else if(x>=32 && a<=47 || x>=58 && x<=64 || x>=91 && x<=96 || x>=123 && x<=126){
+    printf("Special character");
+ }
+ else{
+    printf("Consonant");
+ }
     }
     return 0;
 }
