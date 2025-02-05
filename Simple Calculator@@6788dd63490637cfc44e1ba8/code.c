@@ -5,7 +5,7 @@ int main() {
     char c;
 
     // Space before %c to handle whitespace
-    scanf("%d %d %c", &a, &b, &c);
+    scanf("%d %d %c",&a,&b,&c);
 
     if (c == '+') {
         printf("%d", a + b);
