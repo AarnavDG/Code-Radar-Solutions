@@ -18,14 +18,10 @@ int main() {
     }
     else if (c == '/') {
         if (b == 0) {
-            printf("Error: Division by zero is not allowed.");
+            printf("error");
         } else {
             printf("%d", a / b);
         }
     }
-    else {
-        printf("error");
-    }
-
     return 0;
 }
