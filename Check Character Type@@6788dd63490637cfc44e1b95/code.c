@@ -3,11 +3,43 @@
 int main() {
     char x;
     scanf("%c",&x);
-    if(x=='aeiouAEIOU'){
-        prinf("Vowel");
-    }
-    else{
-        printf("Consonant");
+    switch(x):
+    {
+        case "a" :
+        printf("Vowel");
+        break;
+        break
+        case "e" :
+        printf("Vowel");
+        break;
+        case "i" :
+        printf("Vowel");
+        break;
+        case "o" :
+        printf("Vowel");
+        break;
+        case "u" :
+        printf("Vowel");
+        break;
+        case "A" :
+        printf("Vowel");
+        break;
+        case "E" :
+        printf("Vowel");
+        break;
+        case "I" :
+        printf("Vowel");
+        break;
+        case "O" :
+        printf("Vowel");
+        break;
+        case "U" :
+        printf("Vowel");
+        break;
+        default:
+        print("Consonant");
+        break;
+
     }
     return 0;
 }
