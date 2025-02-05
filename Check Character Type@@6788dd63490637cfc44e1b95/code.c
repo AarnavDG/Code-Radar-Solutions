@@ -10,7 +10,7 @@ int main(){
         printf("Digit");
     }
     else if((x>=32 && x<=47) || (x>=58 && x<=64) || (x>=91 && x<=96) || (x>=123 && x<=126)){
-        printf("Special character");
+        printf("Special Character");
     }
     else{
         printf("Consonant");
