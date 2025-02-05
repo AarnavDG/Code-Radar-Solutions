@@ -9,7 +9,7 @@ int main(){
     else if(x>=0 && x>=9){
         printf("Digit");
     }
-    else if(x>=32 && a<=47 || x>=58 && x<=64 || x>=91 && x<=96 || x>=123 && x<=126){
+    else if((x>=32 && a<=47) || (x>=58 && x<=64) || (>=91 && x<=96) || (x>=123 && x<=126)){
         printf("Special character");
     }
     else{
