@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void PeakElement(int arr,int n){
+void PeakElement(int arr[],int n){
     if(n==1){
         return arr[0];
     }
