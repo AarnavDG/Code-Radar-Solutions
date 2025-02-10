@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 void checkSorted(int arr[],int n){
-    for(int i=0;i<n-1;i++){
-        for(int j=1;j<n;j++){
-            if(arr[i]<=arr[j]){
-                printf("Sorted");
-            }
-            else{
-                printf("Not Sorted");
-            }
+    for(int i=0,i<n-1,i++){
+        if(arr[i]>arr[i+1]){
+            printf("Not Sorted\n");
+            return;
         }
     }
+    printf("Sorted");
 }
 
 int main() {
@@ -22,6 +19,6 @@ int main() {
     }
 
     checkSorted(arr,n);
-    
+
     return 0;
 }
