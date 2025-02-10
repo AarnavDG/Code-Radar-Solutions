@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void checkSorted(int arr[],int n){
-    for(int i=0,i<n-1,i++){
-        if(arr[i]>arr[i+1]){
+void checkSorted(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {  
+        if (arr[i] > arr[i + 1]) {
             printf("Not Sorted\n");
             return;
         }
     }
-    printf("Sorted");
+    printf("Sorted\n");
 }
 
 int main() {
