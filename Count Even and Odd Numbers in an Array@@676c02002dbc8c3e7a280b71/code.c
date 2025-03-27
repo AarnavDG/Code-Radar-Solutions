@@ -16,9 +16,9 @@ void count(int n, int arr[]){
 }
 
 int main(){
-    int b;
+    int a;
     scanf("%d\n",&a);
-    int arr[n];
+    int arr[a];
     for(int i=0; i<a; i++){
         scanf("%d",arr[i]);
     }
