@@ -22,7 +22,7 @@ int main(){
     for(int i=0; i<a; i++){
         scanf("%d",arr[i]);
     }
-    count(a,b);
+    count(a,arr[]);
     printf("%d %d",even,odd);
 
 
