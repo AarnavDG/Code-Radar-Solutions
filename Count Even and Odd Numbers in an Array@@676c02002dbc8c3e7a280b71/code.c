@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void count(int n int arr[]){
+void count(int n, int arr[]){
     int even = 0;
     int odd = 0;
 
