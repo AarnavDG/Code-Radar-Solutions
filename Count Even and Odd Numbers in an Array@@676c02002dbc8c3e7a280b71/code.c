@@ -12,7 +12,7 @@ void count(int n, int arr[]){
             odd += 1;
         }
     }
-    
+    printf("%d %d",even ,odd);
 }
 
 int main(){
@@ -23,7 +23,7 @@ int main(){
         scanf("%d",arr[i]);
     }
     count(a,arr);
-    printf("%d %d",even,odd);
+
 
 
 
