@@ -6,10 +6,10 @@ void count(int n, int arr[]){
 
     for(int i=0; i<n; i++){
         if(arr[i]%2==0){
-            even += 1;
+            even++;
         }
         else{
-            odd += 1;
+            odd++;
         }
     }
     printf("%d %d",even ,odd);
@@ -23,8 +23,5 @@ int main(){
         scanf("%d",arr[i]);
     }
     count(a,arr);
-
-
-
 
 }
