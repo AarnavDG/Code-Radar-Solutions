@@ -17,7 +17,7 @@ void frequency(int arr[], int size){
                 visited[j] == 1;
             }
         }
-        printf("%d %d",arr[i],count)
+        printf("%d %d",arr[i],count);
     }
 }
 
