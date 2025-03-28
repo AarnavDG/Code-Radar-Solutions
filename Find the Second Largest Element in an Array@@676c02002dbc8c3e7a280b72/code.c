@@ -22,4 +22,5 @@ int main(){
     }
 
     second_largest(arr[],n);
+    return 0;
 }
