@@ -8,6 +8,9 @@ void second_largest(int arr[], int n){
                 arr[j] = arr[j+1];
                 arr[j+1] = arr[j];
             }
+            else if(arr[j]==arr[j+1]){
+                printf("-1");
+            }
         }
     }
     printf("%d",arr[n-2]);
