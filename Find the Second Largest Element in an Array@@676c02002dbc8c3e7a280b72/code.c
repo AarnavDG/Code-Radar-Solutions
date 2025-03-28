@@ -19,7 +19,7 @@ void second_largest(int arr[],int n){
 
     for(int i=2; i<n; i++){
         if(arr[i]>first){
-            second = first
+            second = first;
             first = arr[i];
         }
         else if(arr[i]>second && arr[i]<first){
@@ -30,7 +30,7 @@ void second_largest(int arr[],int n){
         printf("-1");
     }
     else{
-        printf("%d",second)
+        printf("%d",second);
     }
 }
 
