@@ -21,6 +21,6 @@ int main(){
         scanf("%d",arr[i]);
     }
 
-    second_largest(arr[],n);
+    second_largest(arr,n);
     return 0;
 }
