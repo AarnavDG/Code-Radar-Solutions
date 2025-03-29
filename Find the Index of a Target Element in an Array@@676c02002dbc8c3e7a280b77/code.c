@@ -7,7 +7,7 @@ void search_index(int arr[], int n, int target){
         }
     }
     else{
-        return -1
+        return -1;
     }
 }
 
