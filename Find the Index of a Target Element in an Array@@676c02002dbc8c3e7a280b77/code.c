@@ -21,7 +21,7 @@ int main(){
 
     int result = search_index(arr, n, target);
 
-    if(return != -1){
+    if(result != -1){
         printf("%d", result);
     }else{
         printf("-1");
