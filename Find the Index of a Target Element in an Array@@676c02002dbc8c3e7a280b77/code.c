@@ -3,12 +3,10 @@
 void search_index(int arr[], int n, int target){
     for(int i=0; i<n; i++){
         if(arr[i] == target){
-            printf("%d", i);
+            return i;
         }
     }
-    else{
-        return -1;
-    }
+    return -1;
 }
 
 int main(){
@@ -21,5 +19,11 @@ int main(){
     int target;
     scanf("%d",&target);
 
-    search_index(arr, n, taregt);
+    int result = search_index(arr, n, taregt);
+
+    if(return != -1){
+        printf("%d", result);
+    }else{
+        printf("-1");
+    }
 }
