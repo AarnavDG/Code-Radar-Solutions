@@ -19,7 +19,7 @@ int main(){
     int target;
     scanf("%d",&target);
 
-    int result = search_index(arr, n, taregt);
+    int result = search_index(arr, n, target);
 
     if(return != -1){
         printf("%d", result);
